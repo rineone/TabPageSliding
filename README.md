@@ -15,7 +15,7 @@ Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完�
 最新版本:v1.0
 拷贝这份源码的原因是可以进行二次修改。
  
- 
+!!!
 v1.0:
 在原基础上.对AdvancedPagerSlidingTabStrip添加了底部tab(下划线)宽度设置 apTabWidthLen
  如果不设置,按照文字的宽度来进行变化.
@@ -23,19 +23,19 @@ v1.0:
  ```
  <item name="apTabWidthLen">3dp</item>
  ```
- 
+ !!!
  
  
  
 效果图：
 
-![p1](https://github.com/rineone/TabPageSliding/tree/master/Pic/Pic/Screen_20160216163404.png)
+![p1](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160216163404.png)
 
-![p2](https://github.com/rineone/TabPageSliding/tree/master/Pic/Pic/Screen_20160216163428.png)
+![p2](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160216163428.png)
 
-![p3](https://github.com/rineone/TabPageSliding/tree/master/Pic/Pic/Screen_20160216163452.png)
+![p3](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160216163452.png)
 
-![p4](https://github.com/rineone/TabPageSliding/tree/master/Pic/Pic/Screen_20160411141706.png)
+![p4](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160411141706.png)
 
 ##导入项目
 
