@@ -31,11 +31,11 @@ v1.0:
 
 ![p1](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160216163404.png?raw=true)
 
-![p2](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160216163428.png?raw=true)
+![p2](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160216163428.png?raw=true) 
 
-![p3](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160216163452.png?raw=true)
+![p3](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160216163452.png?raw=true)
 
-![p4](https://github.com/rineone/TabPageSliding/tree/master/Pic/Screen_20160411141706.png?raw=true)
+![p4](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160411141706.png?raw=true)
 
 ##导入项目
 
