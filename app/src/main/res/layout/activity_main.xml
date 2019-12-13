@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <Button
+        android:id="@+id/noramltab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start noraml tab activity"/>
+    <Button
+        android:id="@+id/icontab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start icon tab activity"/>
+
+    <Button
+        android:id="@+id/customtab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start custom tab activity"/>
+
+    <Button
+        android:id="@+id/viewtab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start view tab activity"/>
+
+    <Button
+        android:id="@+id/weibotab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start weibo tab activity"/>
+</LinearLayout>
