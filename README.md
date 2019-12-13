@@ -1,7 +1,7 @@
 # Android AdvancedPagerSlidingTabStrip
 
 Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完美兼容Android自带库和兼容库的`ViewPager`组件，最低支持Android api v9。
-
+ 
 ## Feature
  * 支持Tab小圆点以及数量显示和隐藏
  * 支持自定义Tab View
@@ -10,38 +10,40 @@ Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完�
  * 支持自由设置小圆点、tab大小和位置等设置
  * 支持实现如：微博等不均匀Tab的APP风格，并支持滑动
 
-Project site： <https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip>.
+原文位置 ： <https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip>.
 
-最新版本:v1.8.0
-
+最新版本:v1.0
+拷贝这份源码的原因是可以进行二次修改。
+ 
+***
+v1.0:
+在原基础上.对AdvancedPagerSlidingTabStrip添加了底部tab(下划线)宽度设置 apTabWidthLen
+ 如果不设置,按照文字的宽度来进行变化.
+ style中设置
+ ```
+ <item name="apTabWidthLen">3dp</item>
+ ```
+***
+ 
+ 
+ 
 效果图：
 
-![p1](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160216163404.png)
+![p1](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160216163404.png?raw=true)
 
-![p2](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160216163428.png)
+![p2](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160216163428.png?raw=true) 
 
-![p3](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160216163452.png)
+![p3](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160216163452.png?raw=true)
 
-![p4](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160411141706.png)
+![p4](https://github.com/rineone/TabPageSliding/blob/master/Pic/Screen_20160411141706.png?raw=true)
 
 ##导入项目
 
 **Gradle dependency:**
 ``` groovy
-compile 'homhomlin.lib:apsts:1.8.0'
+    implementation 'com.github.rineone:TabPageSliding:v1.0'
 ```
-
-or
-
-**Maven dependency:**
-``` xml
-<dependency>
-  <groupId>homhomlin.lib</groupId>
-  <artifactId>apsts</artifactId>
-  <version>1.8.0</version>
-</dependency>
-```
-
+ 
 
 ##用法
 
@@ -49,7 +51,7 @@ or
 
 在需要添加的界面xml中添加组件和ViewPager
 ``` xml
-    <com.lhh.apst.library.AdvancedPagerSlidingTabStrip
+    <com.lhh.rine.library.AdvancedPagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="55dp"
@@ -194,22 +196,4 @@ public Drawable getTipsDrawable(int position);
  * `apTabTextAllCaps` Tab的文字是否为全部大写，如果是true就全部大写，默认为true
  * `apTabTextSelectColor` 你所选择的那个tab的颜色
  * `apTabDrawMode` 绘制模式，text或者normal，用于是否将下划线绘制为跟随TextView
-
-## Developed By
-
- * Linhonghong - <linhh90@163.com>
-
-##License
-Copyright 2016 LinHongHong
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+ 
