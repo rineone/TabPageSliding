@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.lhh.rine.library.APSTSViewPager;
 import com.rine.fragments.FirstFragment;
 import com.rine.fragments.FourthFragment;
 import com.rine.fragments.SecondFragment;
@@ -16,13 +17,12 @@ import com.lhh.rine.library.AdvancedPagerSlidingTabStrip;
 
 /**
  * Created by linhonghong on 2015/8/10.
- *  第二个
+ *  第一个
  */
 public class NormalTabActivity extends FragmentActivity implements ViewPager.OnPageChangeListener{
 
     public AdvancedPagerSlidingTabStrip mAPSTS;
     public APSTSViewPager mVP;
-
     private static final int VIEW_FIRST 		= 0;
     private static final int VIEW_SECOND	    = 1;
     private static final int VIEW_THIRD       = 2;

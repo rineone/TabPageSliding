@@ -24,26 +24,28 @@ public class MainActivity extends Activity {
     }
 
     private void findViews(){
-        mIconTab = (Button)findViewById(R.id.icontab);
         mNormalTab = (Button)findViewById(R.id.noramltab);
+        mIconTab = (Button)findViewById(R.id.icontab);
         mCustomTab = (Button)findViewById(R.id.customtab);
         mViewTab = (Button)findViewById(R.id.viewtab);
         mWeiboTab = (Button)findViewById(R.id.weibotab);
     }
 
     private void setButton(){
-        mIconTab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MainActivity.this.startActivity(new Intent(MainActivity.this,IconTabActivity.class));
-            }
-        });
         mNormalTab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MainActivity.this.startActivity(new Intent(MainActivity.this,NormalTabActivity.class));
             }
         });
+
+        mIconTab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.this.startActivity(new Intent(MainActivity.this,IconTabActivity.class));
+            }
+        });
+
         mCustomTab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

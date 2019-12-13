@@ -8,9 +8,11 @@ import android.widget.RelativeLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
+
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.lhh.rine.library.APSTSViewPager;
 import com.rine.fragments.FirstFragment;
 import com.rine.fragments.FourthFragment;
 import com.rine.fragments.SecondFragment;

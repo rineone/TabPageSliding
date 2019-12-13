@@ -22,6 +22,7 @@
         <item name="apTabShouldExpand">false</item>
         <item name="apTabPaddingLeftRight">8dp</item>
         <item name="apTabDrawMode">text</item>
+        <item name="apTabWidthLen">20dp</item>
         <item name="apTabTextSelectColor">@color/lightskyblue</item>
     </style>
 

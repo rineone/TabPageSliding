@@ -9,7 +9,7 @@
         style="@style/pagertab_style"
         android:fillViewport="false"/>
 
-    <com.rine.tabPageSliding.APSTSViewPager
+    <com.lhh.rine.library.APSTSViewPager
         android:id="@+id/vp_main"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

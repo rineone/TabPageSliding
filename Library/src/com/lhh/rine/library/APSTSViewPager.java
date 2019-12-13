@@ -1,10 +1,11 @@
-package com.rine.tabPageSliding;
+package com.lhh.rine.library;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
 import androidx.viewpager.widget.ViewPager;
+
 
 /**
  * Created by linhonghong on 2015/8/10.

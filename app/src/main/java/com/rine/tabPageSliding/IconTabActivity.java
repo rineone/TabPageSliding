@@ -6,9 +6,12 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
+
+
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.lhh.rine.library.APSTSViewPager;
 import com.rine.fragments.FirstFragment;
 import com.rine.fragments.FourthFragment;
 import com.rine.fragments.SecondFragment;
@@ -17,7 +20,7 @@ import com.lhh.rine.library.AdvancedPagerSlidingTabStrip;
 
 /**
  * Created by linhonghong on 2015/8/11.
- * 第一个
+ * 第二个
  */
 public class IconTabActivity extends FragmentActivity implements ViewPager.OnPageChangeListener{
 
@@ -50,7 +53,7 @@ public class IconTabActivity extends FragmentActivity implements ViewPager.OnPag
     }
 
     private void init(){
-        mVP.setOffscreenPageLimit(VIEW_SIZE);
+        mVP.setOffscreenPageLimit(0);
         FragmentAdapter adapter = new FragmentAdapter(getSupportFragmentManager());
 
         mVP.setAdapter(new FragmentAdapter(getSupportFragmentManager()));

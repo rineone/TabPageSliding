@@ -30,6 +30,7 @@ import android.widget.TextView;
 
 import androidx.core.content.res.ResourcesCompat;
 import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.rine.library.R;
 

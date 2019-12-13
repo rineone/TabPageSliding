@@ -2,11 +2,11 @@
 <resources>
     <!--apsts-->
     <declare-styleable name="AdvancedPagerSlidingTabStrip">
-        <attr name="apTabWidthLen" format="dimension"/>
         <attr name="apTabIndicatorColor" format="color"/>
         <attr name="apTabUnderlineColor" format="color"/>
         <attr name="apTabDividerColor" format="color"/>
         <attr name="apTabTextSelectColor" format="color"/>
+        <attr name="apTabWidthLen" format="dimension"/>
         <attr name="apTabIndicatorHeight" format="dimension"/>
         <attr name="apTabUnderlineHeight" format="dimension"/>
         <attr name="apTabDividerPadding" format="dimension"/>
