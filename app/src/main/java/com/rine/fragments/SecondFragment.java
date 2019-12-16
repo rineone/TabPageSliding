@@ -25,4 +25,16 @@ public class SecondFragment extends Fragment {
         View view = inflater.inflate(R.layout.second_fragment, null);
         return view;
     }
+
+    @Override
+    public void setMenuVisibility(boolean menuVisible) {
+        super.setMenuVisibility(menuVisible);
+        if (menuVisible){
+            //看得见
+            int a = 1;
+        }else {
+            //看不见
+            int b = 1;
+        }
+    }
 }
