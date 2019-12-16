@@ -23,8 +23,6 @@ v1.0:
  ```
  <item name="apTabWidthLen">3dp</item>
  ```
-***
-***
 v1.1
 将ViewPager封装到lib中,原来的版本是需要在项目里，自己写一个viewpager，自己引用的。
 如果需要对viewpager特殊处理，在项目中自己写个viewpager引用.
