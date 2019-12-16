@@ -12,7 +12,7 @@ Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完�
 
 原文位置 ： <https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip>.
 
-最新版本:v1.0
+最新版本:v1.1
 拷贝这份源码的原因是可以进行二次修改。
  
 ***
@@ -24,7 +24,11 @@ v1.0:
  <item name="apTabWidthLen">3dp</item>
  ```
 ***
- 
+***
+v1.1
+将ViewPager封装到lib中,原来的版本是需要在项目里，自己写一个viewpager，自己引用的。
+如果需要对viewpager特殊处理，在项目中自己写个viewpager引用.
+ ***
  
  
 效果图：
